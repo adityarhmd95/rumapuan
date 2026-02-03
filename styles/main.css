@@ -461,6 +461,8 @@ h4 {
   overflow: hidden;
   box-shadow: var(--shadow-sm);
   transition: box-shadow var(--transition-base), transform var(--transition-base);
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
@@ -486,6 +488,9 @@ h4 {
 
 .card__content {
   padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .card__title {
@@ -504,6 +509,7 @@ h4 {
   flex-wrap: wrap;
   gap: var(--space-sm);
   align-items: center;
+  margin-top: auto;
 }
 
 .card__link {
