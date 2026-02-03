@@ -1,0 +1,8 @@
+# Robots.txt for Ramapuan
+# https://ramapuan.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ramapuan.com/sitemap.xml
