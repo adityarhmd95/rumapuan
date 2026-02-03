@@ -530,6 +530,7 @@ h4 {
 
 .hero--home {
   min-height: 80vh;
+  background: url('/assets/images/banner/home.jpg') center/cover no-repeat;
 }
 
 .hero--cafe {
@@ -547,6 +548,60 @@ h4 {
 }
 
 .hero--cafe .hero__subtitle {
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.hero--venue {
+  background: url('/assets/images/banner/venue.jpg') center/cover no-repeat;
+}
+
+.hero--venue .hero__overlay {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.hero--venue .hero__tagline,
+.hero--venue .hero__title,
+.hero--venue .hero__subtitle {
+  color: #fff;
+}
+
+.hero--venue .hero__subtitle {
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.hero--salon {
+  background: url('/assets/images/banner/salon.jpg') center/cover no-repeat;
+}
+
+.hero--salon .hero__overlay {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.hero--salon .hero__tagline,
+.hero--salon .hero__title,
+.hero--salon .hero__subtitle {
+  color: #fff;
+}
+
+.hero--salon .hero__subtitle {
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.hero--gym {
+  background: url('/assets/images/banner/gym.jpg') center/cover no-repeat;
+}
+
+.hero--gym .hero__overlay {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.hero--gym .hero__tagline,
+.hero--gym .hero__title,
+.hero--gym .hero__subtitle {
+  color: #fff;
+}
+
+.hero--gym .hero__subtitle {
   color: rgba(255, 255, 255, 0.86);
 }
 
